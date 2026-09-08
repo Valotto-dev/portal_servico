@@ -55,7 +55,15 @@ header {
 nav {
     background-color: #102f4a;
 
-    padding: 15px;
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 24px;
+
+    padding: 16px;
 }
 
 nav a {
@@ -64,8 +72,6 @@ nav a {
     text-decoration: none;
 
     font-weight: bold;
-
-    margin: 0 12px;
 }
 
 nav a:hover {
@@ -249,10 +255,10 @@ footer p {
         font-size: 30px;
     }
 
-    nav a {
-        display: block;
+    nav {
+        flex-direction: column;
 
-        margin: 8px;
+        gap: 8px;
     }
 
     .servicos {
