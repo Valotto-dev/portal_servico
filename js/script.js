@@ -122,7 +122,6 @@ filtroCategoria.addEventListener("change", () => {
       servicosFiltrados.length + " serviço(s) encontrado(s).";
   }
 });
-
 // Aula 13 - LocalStorage: o navegador lembra uma preferência simples
 // (nunca guarde senha, CPF ou dados pessoais sensíveis aqui)
 const campoFavorito = document.querySelector("#servicoFavorito");
