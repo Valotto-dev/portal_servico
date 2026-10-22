@@ -1,162 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>IA Fácil - Contato</title>
-
-    <link rel="stylesheet" href="css/style_contato.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Guia de IA para Iniciantes</title>
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
-
 <body>
+  <header>
+    <a href="index.html">
+      <h1>Guia de Inteligência Artificial para Iniciantes</h1>
+    </a>
+    <p>Entenda, use e questione a IA com segurança, sem precisar saber programar.</p>
+  </header>
 
-    <header>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="contato.html">Contato</a>
+  </nav>
 
-        <div class="cabecalho">
+  <main>
+    <section>
+      <h2>Entre em contato</h2>
+      <p>Preencha os campos abaixo. Nesta etapa, o formulário ainda não enviará os dados para um servidor.</p>
 
-            <h1><a href="index.html">IA <span>Fácil</span></a></h1>
+      <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
 
-            <p>
-                Guia de Inteligência Artificial para Iniciantes
-            </p>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
 
-        </div>
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" required>
+          <option value="">Selecione</option>
+          <option value="duvida">Dúvida</option>
+          <option value="solicitacao">Solicitação</option>
+          <option value="sugestao">Sugestão</option>
+        </select>
 
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
 
-        <nav>
+        <button type="submit">Enviar</button>
+        <p id="mensagemForm" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
 
-            <a href="index.html">Início</a>
+  <footer>
+    <p>Projeto acadêmico - Programação Web</p>
+  </footer>
 
-            <a href="servicos.html">Ferramentas</a>
-
-            <a href="contato.html">Contato</a>
-
-        </nav>
-
-    </header>
-
-
-    <main>
-
-        <section class="contato">
-
-            <h2>Entre em contato</h2>
-
-            <p>
-                Tem alguma dúvida, sugestão ou precisa de orientação
-                sobre inteligência artificial? Preencha o formulário
-                abaixo.
-            </p>
-
-            <p class="aviso">
-                Nesta etapa do projeto, o formulário ainda não envia
-                os dados para um servidor.
-            </p>
-
-
-            <form>
-
-                <label for="nome">
-                    Nome:
-                </label>
-
-                <input
-                    type="text"
-                    id="nome"
-                    name="nome"
-                    placeholder="Digite seu nome"
-                    required
-                >
-
-
-                <label for="email">
-                    E-mail:
-                </label>
-
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Digite seu e-mail"
-                    required
-                >
-
-
-                <label for="assunto">
-                    Assunto:
-                </label>
-
-                <select
-                    id="assunto"
-                    name="assunto"
-                    required
-                >
-
-                    <option value="">
-                        Selecione uma opção
-                    </option>
-
-                    <option value="duvida">
-                        Dúvida sobre IA
-                    </option>
-
-                    <option value="ferramenta">
-                        Dúvida sobre ferramenta
-                    </option>
-
-                    <option value="sugestao">
-                        Sugestão
-                    </option>
-
-                    <option value="outro">
-                        Outro assunto
-                    </option>
-
-                </select>
-
-
-                <label for="mensagem">
-                    Mensagem:
-                </label>
-
-                <textarea
-                    name="mensagem"
-                    id="mensagem"
-                    rows="6"
-                    placeholder="Digite sua mensagem"
-                    required
-                ></textarea>
-
-
-                <button type="submit">
-                    Enviar mensagem
-                </button>
-
-            </form>
-
-        </section>
-
-    </main>
-
-
-    <footer>
-
-        <p>
-            Projeto acadêmico - Programação Web
-        </p>
-
-        <p>
-            IA Fácil &copy; 2026
-        </p>
-
-    </footer>
-
+  <script src="js/contato.js"></script>
 </body>
-
 </html>
