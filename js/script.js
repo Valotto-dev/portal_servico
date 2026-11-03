@@ -29,17 +29,6 @@ const servicos = [
   }
 ];
 
-// Teste dos dados no Console (F12). Pode apagar depois de conferir.
-console.table(servicos);
-console.log(servicos[0].nome);      // primeiro serviço: índice 0
-console.log(servicos[0].categoria); // Aula 11: categoria do primeiro serviço
-console.log(servicos[1].descricao); // descrição do segundo serviço
-
-// forEach = "para cada serviço da lista, execute o bloco"
-servicos.forEach((servico) => {
-  console.log(servico.nome);
-});
-
 // Aula 08 - O Portal toma decisões
 // 1) Encontrar os elementos no DOM (mesmos ids do HTML)
 const campoServico = document.querySelector("#servico");
