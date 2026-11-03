@@ -144,6 +144,25 @@ input:focus, select:focus, textarea:focus, button:focus, a:focus {
 .preferencia {
   border-left: 6px solid #c8f169;
 }
+/* Atividade Final: consulta de CEP com API */
+.consulta-cep {
+  border-left: 6px solid #c8f169;
+}
+
+#statusCep,
+#resultadoCep {
+  margin-top: 16px;
+  padding: 12px;
+  background-color: #f3f4fa;
+  border-radius: 6px;
+  min-height: 1.5em;
+}
+
+#resultadoCep {
+  font-weight: bold;
+  overflow-wrap: anywhere;
+}
+
 footer {
   text-align: center;
   padding: 20px;
