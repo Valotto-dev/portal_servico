@@ -57,4 +57,4 @@ Link do GitHub Pages: https://valotto-dev.github.io/portal_servico/
 **6. IA no desenvolvimento:** a IA pode explicar erros, sugerir código e acelerar tarefas repetitivas. Mas eu preciso ler, testar e entender o que ela entrega, porque sou eu que respondo pelo código e posso ter que explicá-lo.
 
 ## Autor(a)
-Seu nome completo aqui
+João Victor Sella Valotto
